@@ -22,7 +22,7 @@ albatrossdigital.github.io,127.0.0.1:9000,*.albatrossdemos.com
 ```
 
 
-#### Advanced (setting up repo)
+#### Advanced (setting up a repo for the first time)
 Create repo in github
 * Click + up in the top-right
 * Change account owner for repo to Albatross Digital
