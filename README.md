@@ -24,10 +24,10 @@ albatrossdigital.github.io,127.0.0.1:9000,*.albatrossdemos.com
 
 #### Advanced (setting up repo)
 Create repo in github
-1. Click + up in the top-right
-2. Change account owner for repo to Albatross Digital
-3. Create a <repoName> for your styleguide (`goredmond-styleguide`). 
-4. Leave privacy on repo Public
+* Click + up in the top-right
+* Change account owner for repo to Albatross Digital
+* Create a <repoName> for your styleguide (`goredmond-styleguide`). 
+* Leave privacy on repo Public
 ```
 git clone git@github.com:albatrossdigital/bootstrap-style-guide.git
 mv bootstrap-style-guide <repoName>
