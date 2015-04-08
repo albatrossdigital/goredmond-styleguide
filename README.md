@@ -34,6 +34,8 @@ mv bootstrap-style-guide <repoName>
 cd <repoName>
 git remote set-url origin git@github.com:albatrossdigital/<repoName>.git
 git push origin gh-pages
+npm install && bower install 
+grunt
 ```
 
 
