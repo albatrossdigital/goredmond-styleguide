@@ -13,7 +13,7 @@ var app = (function(document, $) {
 	return {
 		init: _init,
 		getPage: function(context) {
-			var pageName = window.location.hash.replace(/#|\//, '');
+			var pageName = window.location.hash.replace(/#|\//g, '');
 			if(!pageName) {
 				pageName = 'home';
 			}

@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd:'<%= app %>/',
-					src: ['fonts/**', '**/*.html', '!**/*.<%= theme_scss %>', '!bower_components/**'],
+					src: ['fonts/**', '**/*.html', '**/*.mst', '!**/*.<%= theme_scss %>', '!bower_components/**'],
 					dest: '<%= dist %>/'
 				} , {
 					expand: true,
@@ -137,7 +137,14 @@ module.exports = function(grunt) {
 					'bootstrap-sass-official'
 				]
 			}
-		}
+		},
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
+    }
 
 	});
 
