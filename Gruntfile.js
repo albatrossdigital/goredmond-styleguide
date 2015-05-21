@@ -96,7 +96,7 @@ module.exports = function(grunt) {
 				tasks: ['sass']
 			},
 			livereload: {
-				files: ['<%= app %>/**/*.html', '!<%= app %>/bower_components/**', '<%= app %>/js/**/*.js', '<%= app %>/css/**/*.css', '<%= app %>/images/**/*.{jpg,gif,svg,jpeg,png}'],
+				files: ['<%= app %>/**/*.html', '<%= app %>/**/*.mst', '!<%= app %>/bower_components/**', '<%= app %>/js/**/*.js', '<%= app %>/css/**/*.css', '<%= app %>/images/**/*.{jpg,gif,svg,jpeg,png}'],
 				options: {
 					livereload: true
 				}
@@ -149,5 +149,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('server-dist', ['connect:dist']);
 	
 	grunt.registerTask('publish', ['compile-sass', 'clean:dist', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
+
+	grunt.registerTask('github', ['publish', 'gh-pages']);
 
 };

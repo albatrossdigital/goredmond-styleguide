@@ -19,4 +19,10 @@
 @import "mixins";
 @import "utilities";
 @import "styleguide-only";
+
+@import "components/type";
+@import "components/nav";
+
+@import "layout/header";
+
 @import "appstyles";

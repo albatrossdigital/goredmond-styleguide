@@ -1,125 +1,4 @@
-//*******************************
 
-// Typography
-
-//*****************************
-
-h1, .h1 {
-  font-family: nudista-web;
-  font-weight: $bold-weight;
-  font-size: 55px;
-  line-height: 1.1em;
-  color: #000000;
-  opacity: .87;
-  margin-top: 0;
-  margin-bottom: .3em;
-}
-
-h2, .h2 {
-  font-family: nudista-web;
-  font-weight: $regular-weight;
-  font-size: 42px;
-  line-height: 1.2em;
-  color: #000000;
-  opacity: .54;
-  margin: 1em 0 .5em 0;
-  padding-bottom: .1em;
-}
-
-h3, .h3 {
-  font-family: nudista-web;
-  font-weight: $semibold-weight;
-  font-size: 24px;
-  line-height: 1.4em;
-  color: #b75540;
-  opacity: 1;
-  margin: 0;
-
-  a {
-    color: #000000;
-
-    &:hover {
-      color: #000000;
-      text-decoration: none;
-      border-bottom: 2px solid $brand-primary;
-    }
-  }
-}
-
-h4, .h4 {
-  font-family: nudista-web;
-  font-weight: $semibold-weight;
-  font-size: 18px;
-  line-height: 1.4em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #000000;
-  opacity: .54;
-  margin: 0 0 .25em 0;
-
-  a {
-    color: #000000;
-
-    &:hover {
-      color: #000000;
-      text-decoration: none;
-      border-bottom: 2px solid $brand-primary;
-    }
-  }
-}
-
-h5, .h5 {
-  font-family: republic-web;
-  font-weight: $medium-weight;
-  font-size: 18px;
-  line-height: 1.5em;
-  color: #000000;
-  opacity: .54;
-  margin: 0 0 1em 0;
-}
-
-h6, .h6 {
-  font-family: republic-web;
-  font-weight: $regular-weight;
-  font-size: 16px;
-  line-height: 1.5em;
-  color: #000000;
-  opacity: .54;
-  margin: 0;
-}
-
-p, .p {
-  font-family: republic-web;
-  font-weight: $regular-weight;
-  font-size: 20px;
-  line-height: 1.4em;
-  color: #000000;
-  opacity: .80;
-  margin: 0 0 1em 0;
-  padding: 0;
-}
-
-ul {
-  font-family: republic-web;
-  font-weight: $regular-weight;
-  font-size: 18px;
-  line-height: 1.4em;
-  margin: 0 0 1.5em 0;
-  max-width: 660px
-}
-
-blockquote {
-  font-family: republic-web;
-  font-weight: $regular-weight;
-  font-size: 34px;
-  line-height: 1.2em;
-  color: #000000;
-  opacity: .54;
-  margin: .5em 0;
-  padding: 0;
-  max-width: 660px;
-  border-left: 0px;
-}
 
 .brand-primary {
   background-color: $brand-primary;
@@ -147,7 +26,7 @@ blockquote {
 
 
 .btn {
-  font-family: Fira sans;
+  //font-family: Fira sans;
   font-weight: $regular-weight;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -179,7 +58,7 @@ blockquote {
 }
 
 label {
-  font-family: Fira sans;
+  //font-family: Fira sans;
   font-weight: $medium-weight;
   font-size: 16px;
   line-height: 1.5em;
@@ -196,7 +75,7 @@ label {
 }
 
 .panel-title {
-  font-family: Fira sans;
+  //font-family: Fira sans;
   font-weight: $regular-weight;
   font-size: 20px;
   line-height: 1.4em;
@@ -208,7 +87,7 @@ label {
 .panel-heading {
   background-color: $brand-secondary-alt;
   border-radius: 0;
-  font-family: Fira sans;
+  //font-family: Fira sans;
   font-weight: $regular-weight;
   font-size: 16px;
   line-height: 1.4em;
@@ -217,7 +96,7 @@ label {
 
 .panel-body {
   background-color: $brand-secondary-highlight;
-  font-family: Fira sans;
+  //font-family: Fira sans;
   font-weight: $regular-weight;
   font-size: 16px;
   line-height: 1.5em;
@@ -226,7 +105,7 @@ label {
 }
 
 .table {
-  font-family: Fira sans;
+  //font-family: Fira sans;
   font-weight: $regular-weight;
   font-size: 16px;
   line-height: 1.5em;
@@ -502,34 +381,6 @@ body {
 .jumbotron {
   padding: 2em 1em 1em;
   margin-bottom: 3em;
-}
-.nav {
-  color: #ffffff;
-}
-.navbar {
-  min-height: 72px;
-  background-color: #eeeeee;
-  border-radius: 0;
-  margin: 0 0 1em 0;
-  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2);
-}
-
-.navbar-brand {
-  font-size: 24px;
-  font-weight: 400;
-  padding: 1em 15px;
-  color: #ffffff;
-}
-
-.navbar-nav {
-  font-size: 16px;
-  font-family: Fira sans;
-  padding-top: .75em;
-  color: #ffffff;
-
-  a {
-    color: #ffffff;
-  }
 }
 
 .search-bar {

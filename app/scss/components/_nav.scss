@@ -1,0 +1,36 @@
+
+
+.nav {
+  color: #ffffff;
+}
+.navbar {
+  min-height: 72px;
+  // background-color: #eeeeee;
+  border-radius: 0;
+  // margin: 0 0 1em 0;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 1em 15px;
+  color: #ffffff;
+}
+
+.navbar-nav {
+  font-size: 16px;
+  padding-top: .75em;
+  color: #ffffff;
+
+  a {
+    color: #ffffff;
+  }
+}
+
+.nav-logo {
+  padding-top: 10px;
+  display: block;
+}
